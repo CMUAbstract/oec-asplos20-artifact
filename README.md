@@ -8,7 +8,7 @@ This software artifact simulates orbital edge computing scenarios.
 
 **Dependencies**
 
-* C++11 and C++17 compilers (install script will be provided)
+* C++11 and C++17 compilers ([install script](scripts/setup_dependencies.sh))
 * CMake for building Makefiles (user must install separately)
 
 ## Directory Contents
