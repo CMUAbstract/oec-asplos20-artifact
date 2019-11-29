@@ -33,6 +33,11 @@ Source code and scripts for generating ASPLOS 2020 artifacts.
   harvested power
 * [fstp-mprc](fstp-mprc/README.md): Frame-spaced, tile-parallel with more
   parallel processing
+* [sim-common](sim-common/README.md): Configuration files common to all
+  communication simulations
+* [sim-cs](sim-cs/README.md): Close-spaced communication simulations
+* [sim-fs](sim-fs/README.md): Frame-spaced communication simulations
+* [sim-os](sim-os/README.md): Orbit-spaced communication simulations
 * [README.md](README.md): This document
 
 ## License

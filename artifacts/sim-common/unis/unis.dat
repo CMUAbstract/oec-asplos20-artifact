@@ -1,0 +1,121 @@
+id,name,latitude,longitude
+0000033111,Arizona State University                          ,+33.421944444,-111.940000000
+0000035149,Australian National University                    ,-35.277694444,+149.118500000
+0000042071,Boston University                                 ,+42.349722222,-071.100277778
+0000041071,Brown University                                  ,+41.828611111,-071.399444444
+0000034118,California Institute of Technology                ,+34.137222222,-118.125000000
+0000040079,Carnegie Mellon University                        ,+40.444722222,-079.945000000
+0000040073,Columbia University                               ,+40.808055556,-073.962222222
+0000042076,Cornell University                                ,+42.448888889,-076.478611111
+0000036078,Duke University                                   ,+36.066666667,-078.937500000
+0000048002,Ecole Normale Superieure Paris                    ,+48.841666667,+002.343938889
+0000033084,Emory University                                  ,+33.791944444,-084.323611111
+0000046006,EPF Lausanne                                      ,+46.520555556,+006.568861111
+0000047008,ETH Zurich                                        ,+47.376388889,+008.548055556
+0000031121,Fudan University                                  ,+31.297500000,+121.503611111
+0000033085,Georgia Institute of Technology                   ,+33.771666667,-084.392777778
+0000042072,Harvard University                                ,+42.377777778,-071.116666667
+0000031035,Hebrew University of Jerusalem                    ,+31.794611111,+035.241388889
+0000041083,Heidelberg University                             ,+41.114444444,-083.166805556
+0000051000,Imperial College London                           ,+51.498805556,-000.174888889
+0000039076,Johns Hopkins University                          ,+39.298055556,-076.594444444
+0000036127,KAIST                                             ,+36.365833333,+127.363888889
+0000059018,Karolinska Institute                              ,+59.348111111,+018.023694444
+0000021039,King Abdulaziz University                         ,+21.494750000,+039.253055556
+0000024046,King Saud University                              ,+24.721944444,+046.627777778
+0000051001,Kings College London                              ,+51.505555556,-000.112058889
+0000037127,Korea University                                  ,+37.589166667,+127.033055556
+0000050004,KU Leuven                                         ,+50.878333333,+004.699805556
+0000035135,Kyoto University                                  ,+35.025833333,+135.775000000
+0000055013,Lund University                                   ,+55.709166667,+013.200500000
+0000042073,Massachusetts Institute of Technology             ,+42.359444444,-071.093888889
+0000045073,McGill University                                 ,+45.504805556,-073.577194444
+0000038146,Monash University                                 ,-38.311388889,+146.430000000
+0000055037,Moscow State University                           ,+55.702777778,+037.530555556
+0000035136,Nagoya University                                 ,+35.154722222,+136.966944444
+0000001103,Nanyang Technological University                  ,+01.344569444,+103.681111111
+0000019099,National Autonomous University of Mexico          ,+19.332500000,-099.184805556
+0000025121,National Taiwan University                        ,+25.015916667,+121.536666667
+0000001104,National University of Singapore                  ,+01.296319444,+103.775000000
+0000040074,New York University                               ,+40.730000000,-073.995000000
+0000042087,Northwestern University                           ,+42.056944444,-087.677222222
+0000034135,Osaka University                                  ,+34.825555556,+135.520000000
+0000039116,Peking University                                 ,+39.986888889,+116.305888889
+0000040075,Princeton University                              ,+40.346111111,-074.653611111
+0000040086,Purdue University                                 ,+40.428333333,-086.914444444
+0000029095,Rice University                                   ,+29.718055556,-095.405000000
+0000037126,Seoul National University                         ,+37.459444444,+126.951111111
+0000031122,Shanghai Jiao Tong University                     ,+31.200833333,+121.429722222
+0000048003,Sorbonne University                               ,+48.850805556,+002.341305556
+0000037122,Stanford University                               ,+37.430000000,-122.170000000
+0000059019,Stockholm University                              ,+59.362194444,+018.057805556
+0000023113,Sun Yat-sen University                            ,+23.096500000,+113.298888889
+0000048011,Technical University of Munich                    ,+48.148611111,+011.568500000
+0000032035,Technion Israel Institute of Technology           ,+32.776805556,+035.023111111
+0000022114,The Hong Kong University of Science and Technology,+22.338333333,+114.265000000
+0000039083,The Ohio State University                         ,+39.999444444,-083.014722222
+0000040077,The Pennsylvania State University                 ,+40.807222222,-077.865277778
+0000041087,The University of Chicago                         ,+41.789722222,-087.601111111
+0000022115,The University of Hong Kong                       ,+22.283888889,+114.138055556
+0000053001,The University of Sheffield                       ,+53.381111111,-001.488638889
+0000050001,The University of Southampton                     ,+50.933888889,-001.396311111
+0000030097,The University of Texas at Austin                 ,+30.286111111,-097.739444444
+0000035139,The University of Tokyo                           ,+35.713611111,+139.762500000
+0000038140,Tohoku University                                 ,+38.254444444,+140.871944444
+0000035140,Tokyo Institute of Technology                     ,+35.513611111,+139.482222222
+0000040116,Tsinghua University                               ,+40.000000000,+116.322666667
+0000051002,University College London                         ,+51.522500000,-000.132833889
+0000034138,University of Adelaide                            ,-34.920611111,+138.606194444
+0000053113,University of Alberta                             ,+53.524444444,-113.525000000
+0000052004,University of Amsterdam                           ,+52.368611111,+004.890194444
+0000032110,University of Arizona                             ,+32.234166667,-110.953055556
+0000036174,University of Auckland                            ,-36.853055556,+174.768888889
+0000052001,University of Birmingham                          ,+52.450277778,-001.930380556
+0000051003,University of Bristol                             ,+51.458388889,-002.603055556
+0000049123,University of British Columbia                    ,+49.260611111,-123.246000000
+0000034058,University of Buenos Aires                        ,-34.599888889,-058.373111111
+0000037123,University of California Berkeley                 ,+37.870000000,-122.258888889
+0000038121,University of California Davis                    ,+38.540277778,-121.750000000
+0000034119,University of California Los Angeles              ,+34.067777778,-118.446111111
+0000032117,University of California San Diego                ,+32.878333333,-117.236944444
+0000052000,University of Cambridge                           ,+52.201111111,+000.116181111
+0000040105,University of Colorado Boulder                    ,+40.008333333,-105.258888889
+0000055012,University of Copenhagen                          ,+55.680194444,+012.572388889
+0000055003,University of Edinburgh                           ,+55.948611111,-003.186833333
+0000029082,University of Florida                             ,+29.641111111,-082.344444444
+0000046007,University of Geneva                              ,+46.199388889,+006.145111111
+0000055004,University of Glasgow                             ,+55.872500000,-004.289944444
+0000053006,University of Groningen                           ,+53.219166667,+006.563138889
+0000060024,University of Helsinki                            ,+60.170000000,+024.949388889
+0000040088,University of Illinois at Urbana Champaign        ,+40.109166667,-088.230277778
+0000053002,University of Leeds                               ,+53.808888889,-001.552805556
+0000053003,University of Manchester                          ,+53.465555556,-002.233188889
+0000038076,University of Maryland College Park               ,+38.987500000,-076.940000000
+0000037144,University of Melbourne                           ,-37.798305556,+144.961000000
+0000042083,University of Michigan Ann Arbor                  ,+42.283055556,-083.735000000
+0000044093,University of Minnesota Twin Cities               ,+44.975833333,-093.233055556
+0000045074,University of Montreal                            ,+45.505611111,-073.613805556
+0000033151,University of New South Wales                     ,-33.917305556,+151.231305556
+0000035079,University of North Carolina at Chapel Hill       ,+35.906111111,-079.045000000
+0000052002,University of Nottingham                          ,+52.939444444,-001.196400000
+0000059010,University of Oslo                                ,+59.940000000,+010.721694444
+0000051004,University of Oxford                              ,+51.757777778,-001.262100000
+0000048004,University of Paris Sud                           ,+48.697694444,+002.176500000
+0000039075,University of Pennsylvania                        ,+39.951111111,-075.195000000
+0000027153,University of Queensland                          ,-27.496583333,+153.011388889
+0000023046,University of Sao Paulo                           ,-23.561388889,-046.730805556
+0000031117,University of Science and Technology of China     ,+31.838333333,+117.266944444
+0000034120,University of Southern California                 ,+34.020277778,-118.286111111
+0000033152,University of Sydney                              ,-33.888611111,+151.186944444
+0000043079,University of Toronto                             ,+43.661111111,-079.395833333
+0000040111,University of Utah                                ,+40.765000000,-111.848888889
+0000052003,University of Warwick                             ,+52.379305556,-001.561500000
+0000047122,University of Washington                          ,+47.655277778,-122.305000000
+0000031115,University of Western Australia                   ,-31.977777778,+115.810000000
+0000043089,University of Wisconsin Madison                   ,+43.080277778,-089.420000000
+0000047009,University of Zurich                              ,+47.374305556,+008.551000000
+0000059017,Uppsala University                                ,+59.850833333,+017.630000000
+0000036086,Vanderbilt University                             ,+36.150277778,-086.801111111
+0000038090,Washington University in St. Louis                ,+38.648611111,-090.307777778
+0000041072,Yale University                                   ,+41.311111111,-072.926666667
+0000030120,Zhejiang University                               ,+30.258166667,+120.119166667
