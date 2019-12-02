@@ -13,9 +13,13 @@
 # You should have received a copy of the CC0 Public Domain Dedication with this
 # software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-../artifacts/csfp-base/scripts/run_csfp_base_sims.sh
-../artifacts/csfp-mcap/scripts/run_csfp_mcap_sims.sh
-../artifacts/csfp-mpow/scripts/run_csfp_mpow_sims.sh
-../artifacts/csfp-mprc/scripts/run_csfp_mprc_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/csfp-base/scripts/
+./run_csfp_base_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/csfp-mcap/scripts/
+./run_csfp_mcap_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/csfp-mpow/scripts/
+./run_csfp_mpow_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/csfp-mprc/scripts/
+./run_csfp_mprc_sims.sh
 echo "CSFP simulations are running in the background."
 echo "It may be awhile before they complete, check with 'top'."

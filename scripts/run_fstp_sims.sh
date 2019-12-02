@@ -13,9 +13,13 @@
 # You should have received a copy of the CC0 Public Domain Dedication with this
 # software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-../artifacts/fstp-base/scripts/run_fstp_base_sims.sh
-../artifacts/fstp-mcap/scripts/run_fstp_mcap_sims.sh
-../artifacts/fstp-mpow/scripts/run_fstp_mpow_sims.sh
-../artifacts/fstp-mprc/scripts/run_fstp_mprc_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/fstp-base/scripts/
+./run_fstp_base_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/fstp-mcap/scripts/
+./run_fstp_mcap_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/fstp-mpow/scripts/
+./run_fstp_mpow_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/fstp-mprc/scripts/
+./run_fstp_mprc_sims.sh
 echo "FSTP simulations are running in the background."
 echo "It may be awhile before they complete, check with 'top'."

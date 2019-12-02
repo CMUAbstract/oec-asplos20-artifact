@@ -13,6 +13,7 @@
 # You should have received a copy of the CC0 Public Domain Dedication with this
 # software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-../artifacts/sim-os/scripts/run_os_scenarios.sh &
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/sim-os/scripts/
+./run_os_scenarios.sh &
 echo "OS simulations are running in the background."
 echo "It may be awhile before they complete, check with 'top'."

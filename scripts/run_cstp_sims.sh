@@ -13,9 +13,13 @@
 # You should have received a copy of the CC0 Public Domain Dedication with this
 # software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-../artifacts/cstp-base/scripts/run_cstp_base_sims.sh
-../artifacts/cstp-mcap/scripts/run_cstp_mcap_sims.sh
-../artifacts/cstp-mpow/scripts/run_cstp_mpow_sims.sh
-../artifacts/cstp-mprc/scripts/run_cstp_mprc_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-base/scripts/
+./run_cstp_base_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-mcap/scripts/
+./run_cstp_mcap_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-mpow/scripts/
+run_cstp_mpow_sims.sh
+cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-mprc/scripts/
+./run_cstp_mprc_sims.sh
 echo "CSTP simulations are running in the background."
 echo "It may be awhile before they complete, check with 'top'."
