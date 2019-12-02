@@ -18,7 +18,7 @@ cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-base/scripts/
 cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-mcap/scripts/
 ./run_cstp_mcap_sims.sh
 cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-mpow/scripts/
-run_cstp_mpow_sims.sh
+./run_cstp_mpow_sims.sh
 cd $HOME/git-repos/oec-asplos20-artifact/artifacts/cstp-mprc/scripts/
 ./run_cstp_mprc_sims.sh
 echo "CSTP simulations are running in the background."
