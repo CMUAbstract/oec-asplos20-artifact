@@ -1,4 +1,4 @@
-# Usage: python3 plot_f7b.py /path/to/src/ /path/to/dst/
+# Usage: python3 plot_f8c.py /path/to/src/ /path/to/dst/
 #
 # Written by Bradley Denby  
 # Other contributors: None
@@ -28,13 +28,13 @@ if len(sys.argv)==3:
   if dst[-1] != '/':
     dst += '/'
 else:
-  print("Usage: python3 plot_f7b.py /path/to/src/ /path/to/dst/")
+  print("Usage: python3 plot_f8c.py /path/to/src/ /path/to/dst/")
   exit()
 
 # Baseline
 base_xvalues = []
 base_yvalues = []
-with open(src+'csfp-base/logs/csfp-latency.csv','r') as infile:
+with open(src+'fstp-base/logs/fstp-coverage.csv','r') as infile:
   lines = infile.readlines()
   lines = lines[1:]
   for line in lines:
@@ -44,7 +44,7 @@ with open(src+'csfp-base/logs/csfp-latency.csv','r') as infile:
 # More capacitance
 mcap_xvalues = []
 mcap_yvalues = []
-with open(src+'csfp-mcap/logs/csfp-latency.csv','r') as infile:
+with open(src+'fstp-mcap/logs/fstp-coverage.csv','r') as infile:
   lines = infile.readlines()
   lines = lines[1:]
   for line in lines:
@@ -54,7 +54,7 @@ with open(src+'csfp-mcap/logs/csfp-latency.csv','r') as infile:
 # More power
 mpow_xvalues = []
 mpow_yvalues = []
-with open(src+'csfp-mpow/logs/csfp-latency.csv','r') as infile:
+with open(src+'fstp-mpow/logs/fstp-coverage.csv','r') as infile:
   lines = infile.readlines()
   lines = lines[1:]
   for line in lines:
@@ -64,7 +64,7 @@ with open(src+'csfp-mpow/logs/csfp-latency.csv','r') as infile:
 # More compute
 mprc_xvalues = []
 mprc_yvalues = []
-with open(src+'csfp-mprc/logs/csfp-latency.csv','r') as infile:
+with open(src+'fstp-mprc/logs/fstp-coverage.csv','r') as infile:
   lines = infile.readlines()
   lines = lines[1:]
   for line in lines:
@@ -75,25 +75,25 @@ with open(src+'csfp-mprc/logs/csfp-latency.csv','r') as infile:
 xmin = 0
 xmax = 400
 xstep = 50
-ymin = 0
-ymax = 400
-ystep = 50
+ymin = 0.0
+ymax = 1.01
+ystep = 0.25
 fig = plt.figure()
 ax  = plt.axes(\
- title='Close-spaced, frame-parallel', \
+ title='Frame-spaced, tile-parallel', \
  xlabel='Device count', \
  xlim=(xmin,xmax), xscale='linear', \
  xticks=[x for x in range(xmin,xmax+xstep,xstep)], \
  xticklabels=[str(x) for x in range(xmin,xmax+xstep,xstep)], \
- ylabel='Seconds', \
+ ylabel='Fraction', \
  ylim=(ymin,ymax), yscale='linear', \
- yticks=[y for y in range(ymin,ymax+ystep,ystep)], \
- yticklabels=[str(y) for y in range(ymin,ymax+ystep,ystep)] \
+ yticks=[y for y in np.arange(ymin,ymax,ystep)], \
+ yticklabels=['{:.2f}'.format(y) for y in np.arange(ymin,ymax,ystep)] \
 )
 ax.plot(base_xvalues,base_yvalues,color='#000000',linestyle='solid',marker='2',label='Baseline')
 ax.plot(mcap_xvalues,mcap_yvalues,color='#bb0000',linestyle='solid',marker='4',label='More Capacitance')
 ax.plot(mpow_xvalues,mpow_yvalues,color='#224477',linestyle='solid',marker='1',label='More Power')
 ax.plot(mprc_xvalues,mprc_yvalues,color='#008855',linestyle='solid',marker='3',label='More Compute')
 ax.legend()
-fig.savefig(dst+'csfp-latency.pdf',bbox_inches='tight')
+fig.savefig(dst+'fstp-coverage.pdf',bbox_inches='tight')
 plt.close(fig)

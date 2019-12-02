@@ -20,10 +20,16 @@ This directory contains scripts.
   data logs into a coverage CSV file
 * [fstp_latency.py](fstp_latency.py): Collates frame-spaced, tile-parallel data
   logs into a latency CSV file
+* [generate_f7_plots.sh](generate_f7_plots.sh): Generates latency plots
+* [generate_f8_plots.sh](generate_f8_plots.sh): Generates coverage plots
 * [plot_f7a.py](plot_f7a.py): Plots close-spaced, tile-parallel latencies
 * [plot_f7b.py](plot_f7b.py): Plots close-spaced, frame-parallel latencies
 * [plot_f7c.py](plot_f7c.py): Plots frame-spaced, tile-parallel latencies
 * [plot_f7d.py](plot_f7d.py): Plots frame-spaced, frame-parallel latencies
+* [plot_f8a.py](plot_f8a.py): Plots close-spaced, tile-parallel coverage
+* [plot_f8b.py](plot_f8b.py): Plots close-spaced, frame-parallel coverage
+* [plot_f8c.py](plot_f8c.py): Plots frame-spaced, tile-parallel coverage
+* [plot_f8d.py](plot_f8d.py): Plots frame-spaced, frame-parallel coverage
 * [process_f7_f8_logs.sh](process_f7_f8_logs.sh): Calls all of the collation
   Python scripts in preparation for the latency plot Python scripts
 * [setup_dependencies.sh](setup_dependencies.sh): Downloads and compiles GCC

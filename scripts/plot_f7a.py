@@ -87,9 +87,10 @@ ax  = plt.axes(\
  ylabel='Seconds', \
  ylim=(ymin,ymax), yscale='log', \
 )
-ax.plot(base_xvalues,base_yvalues,color='#000000',linestyle='solid',marker='2')
-ax.plot(mcap_xvalues,mcap_yvalues,color='#bb0000',linestyle='solid',marker='4')
-ax.plot(mpow_xvalues,mpow_yvalues,color='#224477',linestyle='solid',marker='1')
-ax.plot(mprc_xvalues,mprc_yvalues,color='#008855',linestyle='solid',marker='3')
-fig.savefig(dst+'cstp.pdf',bbox_inches='tight')
+ax.plot(base_xvalues,base_yvalues,color='#000000',linestyle='solid',marker='2',label='Baseline')
+ax.plot(mcap_xvalues,mcap_yvalues,color='#bb0000',linestyle='solid',marker='4',label='More Capacitance')
+ax.plot(mpow_xvalues,mpow_yvalues,color='#224477',linestyle='solid',marker='1',label='More Power')
+ax.plot(mprc_xvalues,mprc_yvalues,color='#008855',linestyle='solid',marker='3',label='More Compute')
+ax.legend()
+fig.savefig(dst+'cstp-latency.pdf',bbox_inches='tight')
 plt.close(fig)
