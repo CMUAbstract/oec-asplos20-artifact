@@ -1,5 +1,15 @@
 #!/bin/bash
 # Usage: ./run_fstp_mpow_sims.sh
+#
+# Written by Bradley Denby
+# Other contributors: None
+#
+# To the extent possible under law, the author(s) have dedicated all copyright
+# and related and neighboring rights to this software to the public domain
+# worldwide. This software is distributed without any warranty.
+#
+# You should have received a copy of the CC0 Public Domain Dedication with this
+# software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 if [ ! -d "../logs/001" ]
 then
@@ -70,7 +80,8 @@ then
   mkdir "../logs/384"
 fi
 cd ../build/
-cmake ../source/
+CC=$HOME/sw/gcc-8.3.0-install/bin/gcc CXX=$HOME/sw/gcc-8.3.0-install/bin/g++ \
+ LD_LIBRARY_PATH=$HOME/sw/gcc-8.3.0-install/lib64/ cmake ../source/
 make
 ./fstp_mpow 1 &
 ./fstp_mpow 2 &
