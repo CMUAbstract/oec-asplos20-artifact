@@ -25,6 +25,7 @@ This directory contains scripts.
 * [generate_f6_plots.sh](generate_f6_plots.sh): Generates downlink deficit plots
 * [generate_f7_plots.sh](generate_f7_plots.sh): Generates latency plots
 * [generate_f8_plots.sh](generate_f8_plots.sh): Generates coverage plots
+* [generate_plots.sh](generate_plots.sh): Generates all plots
 * [plot_f6a.py](plot_f6a.py): Plots orbit-spaced downlink deficits
 * [plot_f6b.py](plot_f6b.py): Plots frame-spaced downlink deficits
 * [plot_f6c.py](plot_f6c.py): Plots close-spaced downlink deficits
@@ -40,6 +41,14 @@ This directory contains scripts.
   downlink deficit logs
 * [process_f7_f8_logs.sh](process_f7_f8_logs.sh): Calls all of the collation
   Python scripts in preparation for the latency plot Python scripts
+* [process_logs.sh](process_logs.sh): Processes all of the logs
+* [run_csfp_sims.sh](run_csfp_sims.sh): Run close-spaced, frame-parallel sims
+* [run_cstp_sims.sh](run_cstp_sims.sh): Run close-spaced, tile-parallel sims
+* [run_fsfp_sims.sh](run_fsfp_sims.sh): Run frame-spaced, frame-parallel sims
+* [run_fstp_sims.sh](run_fstp_sims.sh): Run frame-spaced, tile-parallel sims
+* [run_sims_cs.sh](run_sims_cs.sh): Run close-spaced communication sims
+* [run_sims_fs.sh](run_sims_fs.sh): Run frame-spaced communication sims
+* [run_sims_os.sh](run_sims_os.sh): Run orbit-spaced communication sims
 * [setup_dependencies.sh](setup_dependencies.sh): Downloads and compiles GCC
   8.3.0 to the specified directory for use with the artifact software. The
   script path is expected to be `/home/username/sw`.

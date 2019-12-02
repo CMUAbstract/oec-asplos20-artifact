@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# collate_downlink_deficits.sh
+# process_f6_logs.sh
 # A bash script that collates the downlink deficits
 #
 # Written by Bradley Denby
