@@ -7,3 +7,5 @@ Makefile
 # Log files
 *.csv
 
+# Python virtual environment
+p3-env/

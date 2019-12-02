@@ -14,6 +14,7 @@ This software artifact simulates orbital edge computing scenarios.
 ## Directory Contents
 
 * [artifacts](artifacts/README.md): Artifact programs
+* [plots](plots/README.md): Destination directory for artifact plots
 * [scripts](scripts/README.md): Useful scripts, e.g. for setting up dependencies
 * [software](software/README.md): Classes, utilities, etc.
 * [README.md](README.md): This document

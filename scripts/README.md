@@ -4,9 +4,33 @@ This directory contains scripts.
 
 ## Directory Contents
 
+* [csfp_coverage.py](csfp_coverage.py): Collates close-spaced, frame-parallel
+  data logs into a coverage CSV file
+* [csfp_latency.py](csfp_latency.py): Collates close-spaced, frame-parallel
+  data logs into a latency CSV file
+* [cstp_coverage.py](cstp_coverage.py): Collates close-spaced, tile-parallel
+  data logs into a coverage CSV file
+* [cstp_latency.py](cstp_latency.py): Collates close-spaced, tile-parallel data
+  logs into a latency CSV file
+* [fsfp_coverage.py](fsfp_coverage.py): Collates frame-spaced, frame-parallel
+  data logs into a coverage CSV file
+* [fsfp_latency.py](fsfp_latency.py): Collates frame-spaced, frame-parallel
+  data logs into a latency CSV file
+* [fstp_coverage.py](fstp_coverage.py): Collates frame-spaced, tile-parallel
+  data logs into a coverage CSV file
+* [fstp_latency.py](fstp_latency.py): Collates frame-spaced, tile-parallel data
+  logs into a latency CSV file
+* [plot_f7a.py](plot_f7a.py): Plots close-spaced, tile-parallel latencies
+* [plot_f7b.py](plot_f7b.py): Plots close-spaced, frame-parallel latencies
+* [plot_f7c.py](plot_f7c.py): Plots frame-spaced, tile-parallel latencies
+* [plot_f7d.py](plot_f7d.py): Plots frame-spaced, frame-parallel latencies
+* [process_f7_f8_logs.sh](process_f7_f8_logs.sh): Calls all of the collation
+  Python scripts in preparation for the latency plot Python scripts
 * [setup_dependencies.sh](setup_dependencies.sh): Downloads and compiles GCC
   8.3.0 to the specified directory for use with the artifact software. The
   script path is expected to be `/home/username/sw`.
+* [setup_py_venv.sh](setup_py_venv.sh): Sets up the Python virtual environment
+  for Matplotlib
 * [README.md](README.md): This document
 
 ## License
