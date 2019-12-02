@@ -4,6 +4,8 @@ This directory contains scripts.
 
 ## Directory Contents
 
+* [collate_downlink_deficit.py](collate_downlink_deficit.py): Collates downlink
+  deficit data logs into a CSV file
 * [csfp_coverage.py](csfp_coverage.py): Collates close-spaced, frame-parallel
   data logs into a coverage CSV file
 * [csfp_latency.py](csfp_latency.py): Collates close-spaced, frame-parallel
@@ -20,8 +22,12 @@ This directory contains scripts.
   data logs into a coverage CSV file
 * [fstp_latency.py](fstp_latency.py): Collates frame-spaced, tile-parallel data
   logs into a latency CSV file
+* [generate_f6_plots.sh](generate_f6_plots.sh): Generates downlink deficit plots
 * [generate_f7_plots.sh](generate_f7_plots.sh): Generates latency plots
 * [generate_f8_plots.sh](generate_f8_plots.sh): Generates coverage plots
+* [plot_f6a.py](plot_f6a.py): Plots orbit-spaced downlink deficits
+* [plot_f6b.py](plot_f6b.py): Plots frame-spaced downlink deficits
+* [plot_f6c.py](plot_f6c.py): Plots close-spaced downlink deficits
 * [plot_f7a.py](plot_f7a.py): Plots close-spaced, tile-parallel latencies
 * [plot_f7b.py](plot_f7b.py): Plots close-spaced, frame-parallel latencies
 * [plot_f7c.py](plot_f7c.py): Plots frame-spaced, tile-parallel latencies
@@ -30,6 +36,8 @@ This directory contains scripts.
 * [plot_f8b.py](plot_f8b.py): Plots close-spaced, frame-parallel coverage
 * [plot_f8c.py](plot_f8c.py): Plots frame-spaced, tile-parallel coverage
 * [plot_f8d.py](plot_f8d.py): Plots frame-spaced, frame-parallel coverage
+* [process_f6_logs.sh](process_f6_logs.sh): Calls Python scripts to generate
+  downlink deficit logs
 * [process_f7_f8_logs.sh](process_f7_f8_logs.sh): Calls all of the collation
   Python scripts in preparation for the latency plot Python scripts
 * [setup_dependencies.sh](setup_dependencies.sh): Downloads and compiles GCC
