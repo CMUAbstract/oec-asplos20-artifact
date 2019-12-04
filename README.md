@@ -2,7 +2,7 @@
 
 This software artifact simulates orbital edge computing scenarios.
 
-**Current version**: 0.0.0
+**Current version**: 1.0.0
 
 * This software uses [semantic versioning](http://semver.org).
 

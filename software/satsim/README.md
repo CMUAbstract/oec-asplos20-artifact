@@ -1,9 +1,5 @@
 # Satellite Simulation Software
 
-**Current version**: 0.0.0
-
-* This software uses [semantic versioning](http://semver.org).
-
 **Dependencies**
 
 * A C++11 compiler
