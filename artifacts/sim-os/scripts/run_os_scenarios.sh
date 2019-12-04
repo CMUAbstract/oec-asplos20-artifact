@@ -19,7 +19,7 @@
 baseline=$( ps -u $(whoami) | sed 1d | wc -l )
 ./prep_os_scenarios.sh
 cd ../build/
-CC=$HOME/sw/gcc-8.3.0-install/bin/gcc CXX=$HOMEsw/gcc-8.3.0-install/bin/g++ \
+CC=$HOME/sw/gcc-8.3.0-install/bin/gcc CXX=$HOME/sw/gcc-8.3.0-install/bin/g++ \
  LD_LIBRARY_PATH=$HOME/sw/gcc-8.3.0-install/lib64/ cmake ../source/
 make
 for orbit in planet spacex spire
