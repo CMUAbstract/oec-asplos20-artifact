@@ -1,6 +1,6 @@
 # Orbital Edge Computing ASPLOS 2020 Artifact Software
 
-This software artifact simulates orbital edge computing scenarios.
+This software artifact simulates orbital edge computing scenarios. See [Orbital Edge Computing: Nanosatellite Constellations as a New Class of Computer System](https://abstract.ece.cmu.edu/pubs/oec-asplos2020.pdf) for information on this project.
 
 **Current version**: 1.0.0
 
